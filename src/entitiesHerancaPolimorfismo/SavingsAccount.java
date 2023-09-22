@@ -1,5 +1,8 @@
 package entitiesHerancaPolimorfismo;
 
+// final nao deixa a classe ser herdada por outra classe
+// final nao deixa o metodo ser sobreescrito em outra classe
+// public final class SavingsAccount...
 public class SavingsAccount extends Account{
 
     private Double interestRate;
@@ -22,6 +25,11 @@ public class SavingsAccount extends Account{
 
     public void updateBalance() {
         balance += balance * interestRate;
+    }
+
+    @Override
+    public void withDraw(double amount) {
+        balance -= amount;
     }
 }
 
