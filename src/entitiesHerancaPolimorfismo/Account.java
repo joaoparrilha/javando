@@ -1,4 +1,4 @@
-package herancaPolimorfismo;
+package entitiesHerancaPolimorfismo;
 
 public class Account {
 
