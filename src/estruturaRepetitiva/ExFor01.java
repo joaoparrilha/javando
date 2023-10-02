@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ExFor01 {
     public static void main(String[] args) {
 
+        System.out.println("Números impares");
         Scanner sc = new Scanner(System.in);
         int entrada = sc.nextInt();
 
