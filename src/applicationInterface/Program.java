@@ -29,9 +29,8 @@ public class Program {
         CarRental car = new CarRental(start, finish, new Vehicle(carModel));
 
         BrazilTaxService taxService = new BrazilTaxService();
-        System.out.println(taxService.tax(50));
 
-        System.out.println("Entre o preço por hora: ");
+        System.out.print("Entre o preço por hora: ");
         double pricePerHour = sc.nextDouble();
         System.out.print("Entre o preço por dia: ");
         double pricePerDay = sc.nextDouble();
